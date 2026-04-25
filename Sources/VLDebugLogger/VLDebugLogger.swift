@@ -163,12 +163,6 @@ public final class VLDebugLogger: Sendable {
     // MARK: - Convenience Method
     
     public func log(
-        _ message: String
-    ) {
-        log(message)
-    }
-    
-    public func log(
         _ message: String,
         category: Category = .general,
         level: MessageLogLevel = .debug,
