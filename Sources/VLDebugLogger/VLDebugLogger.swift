@@ -10,7 +10,7 @@
 
 import Foundation
 import os.log
-import Collections
+import OrderedCollections
 
 public final class VLDebugLogger: Sendable {
     
@@ -430,7 +430,7 @@ extension VLDebugLogger {
 // MARK: - Message Format Options
 
 public extension VLDebugLogger {
-    public enum MessageFormatOption : Sendable{
+    enum MessageFormatOption : Sendable{
         case prefix
         case message
         case subsystem
